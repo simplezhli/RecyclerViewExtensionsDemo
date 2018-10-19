@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="添加"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_update"
+        android:title="修改"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="删除"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_clear"
+        android:title="清空"
+        app:showAsAction="never"/>
+</menu>
