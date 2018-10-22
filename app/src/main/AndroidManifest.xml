@@ -36,6 +36,10 @@
         <activity
             android:label="SnapHelperActivity"
             android:name="com.zl.weilu.recyclerview.snaphelper.SnapHelperActivity"/>
+
+        <activity
+            android:label="AsyncListUtilActivity"
+            android:name="com.zl.weilu.recyclerview.asynclistutil.AsyncListUtilActivity"/>
     </application>
 
 </manifest>

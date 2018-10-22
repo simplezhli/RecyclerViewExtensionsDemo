@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.zl.weilu.recyclerview.asynclistdiffer.AsyncListDifferActivity;
+import com.zl.weilu.recyclerview.asynclistutil.AsyncListUtilActivity;
 import com.zl.weilu.recyclerview.diffutil.DiffUtilActivity;
 import com.zl.weilu.recyclerview.listadapter.ListAdapterActivity;
 import com.zl.weilu.recyclerview.snaphelper.SnapHelperActivity;
@@ -40,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, SnapHelperActivity.class));
     }
 
-    public void totoAsyncListUtilActivity(View view){
-        startActivity(new Intent(this, SnapHelperActivity.class));
+    public void toAsyncListUtilActivity(View view){
+        startActivity(new Intent(this, AsyncListUtilActivity.class));
     }
 }
 
