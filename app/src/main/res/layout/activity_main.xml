@@ -34,4 +34,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ListAdapter"/>
+
+    <Button
+        android:onClick="toSnapHelperActivity"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SnapHelper"/>
+
+    <Button
+        android:onClick="toAsyncListUtilActivity"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncListUtil"/>
+    
 </LinearLayout>

@@ -32,6 +32,10 @@
         <activity
             android:label="ListAdapterActivity"
             android:name="com.zl.weilu.recyclerview.listadapter.ListAdapterActivity"/>
+
+        <activity
+            android:label="SnapHelperActivity"
+            android:name="com.zl.weilu.recyclerview.snaphelper.SnapHelperActivity"/>
     </application>
 
 </manifest>
