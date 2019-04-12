@@ -40,6 +40,10 @@
         <activity
             android:label="AsyncListUtilActivity"
             android:name="com.zl.weilu.recyclerview.asynclistutil.AsyncListUtilActivity"/>
+
+        <activity
+            android:label="PrecomputedTextActivity"
+            android:name="com.zl.weilu.recyclerview.precomputed.PrecomputedTextActivity"/>
     </application>
 
 </manifest>
