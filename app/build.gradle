@@ -23,4 +23,17 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     testImplementation 'junit:junit:4.12'
+
+    // Litho
+    implementation 'com.facebook.litho:litho-core:0.25.0'
+    implementation 'com.facebook.litho:litho-widget:0.25.0'
+    annotationProcessor 'com.facebook.litho:litho-processor:0.25.0'
+    // SoLoader
+    implementation 'com.facebook.soloader:soloader:0.6.0'
+    
+    implementation 'com.facebook.litho:litho-sections-core:0.25.0'
+    implementation 'com.facebook.litho:litho-sections-widget:0.25.0'
+    compileOnly 'com.facebook.litho:litho-sections-annotations:0.25.0'
+
+    annotationProcessor 'com.facebook.litho:litho-sections-processor:0.25.0'
 }

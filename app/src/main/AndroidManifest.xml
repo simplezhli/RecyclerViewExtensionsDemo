@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".SampleApplication"
         android:theme="@style/AppTheme">
         <activity android:name="com.zl.weilu.recyclerview.MainActivity">
             <intent-filter>
@@ -44,6 +45,10 @@
         <activity
             android:label="PrecomputedTextActivity"
             android:name="com.zl.weilu.recyclerview.precomputed.PrecomputedTextActivity"/>
+
+        <activity
+            android:label="LithoActivity"
+            android:name="com.zl.weilu.recyclerview.litho.LithoActivity"/>
     </application>
 
 </manifest>

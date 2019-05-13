@@ -8,6 +8,7 @@ import com.zl.weilu.recyclerview.asynclistdiffer.AsyncListDifferActivity;
 import com.zl.weilu.recyclerview.asynclistutil.AsyncListUtilActivity;
 import com.zl.weilu.recyclerview.diffutil.DiffUtilActivity;
 import com.zl.weilu.recyclerview.listadapter.ListAdapterActivity;
+import com.zl.weilu.recyclerview.litho.LithoActivity;
 import com.zl.weilu.recyclerview.precomputed.PrecomputedTextActivity;
 import com.zl.weilu.recyclerview.snaphelper.SnapHelperActivity;
 import com.zl.weilu.recyclerview.sort.SortedListActivity;
@@ -49,5 +50,7 @@ public class MainActivity extends AppCompatActivity {
     public void toPrecomputedTextActivity(View view){
         startActivity(new Intent(this, PrecomputedTextActivity.class));
     }
+    
+    public void toLithoActivity(View view) { startActivity(new Intent(this, LithoActivity.class)); }
 }
 
