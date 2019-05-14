@@ -13,3 +13,7 @@ AsyncListDiffer 与 SnapHelper
 ## 详细介绍
 
 - [RecyclerView库中的遗珠](https://blog.csdn.net/qq_17766199/article/details/83147483)
+
+- [Android 9.0中的新功能 - PrecomputedText](https://weilu.blog.csdn.net/article/details/89282221)
+
+- [Android 开发高手课 温故知新篇](https://weilu.blog.csdn.net/article/details/89483096)
